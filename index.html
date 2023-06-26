@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ranker</title>
+</head>
+<body>
+    <form action="/" method="POST">
+        <input type="hidden" name="firstMovie" value="{{ firstMovie }}">
+        <input type="hidden" name="secondMovie" value="{{ secondMovie }}">
+        <p>{{ movies["Name"][firstMovie] }}</p>
+        <button type="submit" name="choice" value="left">
+            <img src="{{ movieA }}" alt="Left movie" width="200">
+        </button>
+        <button type="submit" name="choice" value="middle">Equal</button>
+        <button type="submit" name="choice" value="right">
+            <img src="{{ movieB }}" alt="Right movie" width="200">
+        </button>
+    </form>
+</body>
+</html>

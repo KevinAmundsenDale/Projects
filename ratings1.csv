@@ -1,0 +1,529 @@
+Name,Rating,Elo
+Avengers: Endgame,3.5,1095.9234927482828
+Snowden,3.0,1086.385505418706
+WALL·E,4.0,1084.3850407032692
+Twelve Monkeys,3.5,1083.0103241751667
+Toy Story,3.5,1082.4791497393785
+Catch Me If You Can,4.0,1082.244158493948
+Johnny English,3.0,1077.177679224642
+Kick-Ass,4.0,1076.3539273986653
+District 9,3.5,1074.736916003852
+Perfect Blue,4.0,1073.6361665843197
+The Truman Show,4.0,1073.160183904114
+The Social Network,4.5,1072.3420961303193
+X-Men: Days of Future Past,4.0,1072.2576472289784
+Thor: Ragnarok,2.5,1071.9365466950678
+The Hateful Eight,4.0,1069.6833698765297
+The Avengers,3.5,1065.792795728635
+Training Day,4.0,1062.2775058977131
+Spider-Man: Into the Spider-Verse,3.5,1061.8117552273088
+The Matrix,5.0,1061.795512661397
+Venom,2.5,1060.5907910887129
+Interstellar,5.0,1060.4770267474714
+Whiplash,4.5,1060.35076330948
+Come and See,4.5,1059.670597210565
+Django Unchained,4.5,1059.6228817453834
+A Clockwork Orange,4.5,1059.2188939326609
+The Incredibles,4.0,1059.141052821789
+The Imitation Game,3.5,1059.041003606722
+Everything Everywhere All at Once,4.5,1058.6694440114688
+A Silent Voice,4.0,1058.5117864950926
+The Empire Strikes Back,4.5,1058.466106377117
+Star Wars: Episode III - Revenge of the Sith,4.0,1058.3746542076851
+Shutter Island,4.5,1058.3153208413376
+Dunkirk,3.5,1058.1152650832316
+Bird Box,2.5,1057.9162381720446
+The Prestige,3.5,1057.412923016595
+Pulp Fiction,4.5,1057.138678974604
+Requiem for a Dream,4.0,1056.6918461019975
+Jurassic Park,3.5,1056.2762051726013
+Klaus,4.5,1052.0212012174482
+John Wick,3.5,1051.9399817982985
+Oldboy,3.5,1049.332731520353
+Kill Bill: Vol. 1,5.0,1049.2691542320215
+Pan's Labyrinth,3.5,1048.6027376793484
+Chronicle,1.5,1047.908207558242
+Inglourious Basterds,4.0,1047.819384823872
+Captain America: The Winter Soldier,4.5,1047.8072454728988
+La La Land,4.0,1047.2074502677283
+The Hunger Games,4.0,1047.0529125332791
+Good Will Hunting,4.5,1046.5612260339533
+The Wolf of Wall Street,4.0,1046.527592022291
+Gran Torino,3.5,1046.5026303998127
+Terminator 2: Judgment Day,4.0,1046.471534626353
+2001: A Space Odyssey,3.0,1046.4705787325945
+Se7en,4.0,1046.4392015954454
+The Dark Knight Rises,3.5,1045.9717211060076
+Memento,4.0,1045.9478271661762
+Anchorman: The Legend of Ron Burgundy,2.5,1045.861734152009
+American History X,4.5,1045.8591037313051
+Nope,4.0,1045.8357828511917
+Kick-Ass 2,3.0,1045.8278203282016
+Pitch Perfect,3.5,1045.3434371444955
+The Lord of the Rings: The Two Towers,4.5,1045.2739384614372
+Monsters University,3.0,1045.1869010314474
+Eighth Grade,5.0,1044.763040740875
+The Hunt,4.5,1044.4774632865908
+No Country for Old Men,4.0,1044.1703360813408
+Jumper,3.5,1044.0910569907828
+Finding Nemo,4.0,1043.922900005516
+V for Vendetta,3.5,1043.8280160333525
+Batman Begins,3.0,1043.6894775460282
+Bad Boys,3.0,1043.6772152677488
+Avatar,2.5,1043.1790548068195
+Yes Man,3.0,1042.5771272688794
+Contact,4.0,1042.458353876532
+Spider-Man,3.0,1042.0307572864203
+Pirates of the Caribbean: On Stranger Tides,2.5,1041.6588341721638
+Meet the Fockers,3.0,1040.0598508981934
+Gone Girl,5.0,1039.918744187968
+The Dark Knight,5.0,1039.3635891996212
+Meet the Parents,2.5,1039.0983142601524
+Parasite,4.5,1038.8634891673355
+Cloverfield,3.0,1038.1791482440417
+National Treasure,2.5,1036.8784402423967
+Avengers: Age of Ultron,3.0,1034.304368328841
+Kill Bill: Vol. 2,4.0,1033.975231479658
+Rogue One: A Star Wars Story,3.0,1033.3036982801027
+Skyfall,3.0,1033.2959242905038
+Forrest Gump,4.0,1033.1204614340386
+Love Actually,3.0,1032.7279672405723
+"Monsters, Inc.",5.0,1032.553674983442
+Coraline,4.5,1032.4785217914014
+Casino Royale,4.0,1032.0307976969978
+The Shawshank Redemption,5.0,1032.030729752709
+Slumdog Millionaire,4.0,1032.0
+Indiana Jones and the Temple of Doom,3.5,1032.0
+Arrival,4.0,1031.9661669788793
+Liar Liar,3.0,1031.941371075487
+I Am Legend,4.0,1031.9311522634682
+The Killing of a Sacred Deer,3.0,1031.836613421793
+The Intouchables,4.0,1031.817716973908
+A Beautiful Day in the Neighborhood,4.0,1031.2976013366472
+The Worst Person in the World,4.5,1031.263693206478
+The Road,4.0,1031.263693206478
+Spider-Man: Homecoming,3.5,1031.263693206478
+Pirates of the Caribbean: The Curse of the Black Pearl,3.0,1031.2320362040102
+Black Panther: Wakanda Forever,3.0,1030.838957768638
+Ice Age,3.5,1030.785512306588
+Tinker Tailor Soldier Spy,4.0,1030.6282758951806
+Megamind,4.0,1030.5612260339533
+The Pianist,2.5,1030.5612260339533
+The Lord of the Rings: The Fellowship of the Ring,4.5,1030.5304984710244
+Donnie Darko,4.5,1030.5303846749791
+The Green Mile,4.0,1030.4790763097485
+The Cabin in the Woods,3.0,1030.4529981167493
+Mission: Impossible - Ghost Protocol,2.5,1030.023160529828
+Her,4.5,1029.9535380514656
+American Pie 2,2.0,1029.948909582569
+Get Out,4.0,1029.897228852709
+Wreck-It Ralph,3.5,1029.4927162638623
+GoodFellas,4.0,1029.2234563427978
+The Lobster,3.0,1029.2199047776749
+Spider-Man: No Way Home,3.5,1028.7965837953968
+The Mask,3.5,1028.5444132805967
+Harry Potter and the Deathly Hallows: Part 2,3.5,1028.543811798838
+From Dusk Till Dawn,2.5,1028.511241396079
+As Good as It Gets,3.0,1028.4624152876304
+Terminator Salvation,2.5,1028.1870270208158
+Coco,3.0,1028.0525786967844
+Saving Private Ryan,4.5,1027.9811911962631
+I Am Number Four,2.5,1027.8682652930358
+Passengers,3.0,1027.7922226287149
+Mission: Impossible - Fallout,2.5,1027.176345463816
+Edge of Tomorrow,3.5,1026.7889708608766
+The Thing,3.5,1026.6236869848897
+The Wolverine,2.5,1026.516490204561
+Fantastic Beasts and Where to Find Them,2.5,1026.4253815298275
+The Blind Side,3.5,1025.59297760141
+Akira,3.5,1021.9763382019928
+John Wick: Chapter 2,2.5,1020.563329706992
+Still Alice,3.0,1020.0665678509408
+The Pursuit of Happyness,4.0,1019.8471596359038
+Spider-Man: Far From Home,3.5,1019.3433253944636
+How to Train Your Dragon,4.0,1018.694328073698
+Doctor Strange,2.5,1018.0801073571316
+Paul Blart: Mall Cop,2.0,1017.9753452284734
+Hellboy,2.5,1017.953220466124
+The Intern,3.5,1017.883375216817
+Spider-Man 2,4.0,1017.7888640651568
+Primal Fear,3.5,1017.3099308553604
+Ant-Man and the Wasp,2.5,1017.1259195202204
+Ghost in the Shell,3.5,1016.705370334074
+Ad Astra,2.5,1016.703501986672
+Halloween,2.0,1016.7024671725246
+The Shining,4.0,1016.6380054299724
+Blade Runner,3.0,1016.5699827796312
+Looper,4.0,1016.3900623946416
+The Greatest Showman,2.5,1016.1869971930561
+Ted,3.0,1016.0897835511856
+In Time,2.0,1016.0589526106112
+Home Alone,3.5,1016.0339081301692
+About a Boy,2.5,1016.0323497647142
+National Treasure: Book of Secrets,3.0,1016.0
+Kingsman: The Secret Service,2.0,1016.0
+Deadpool,3.5,1016.0
+Blade Runner 2049,4.5,1016.0
+A Star Is Born,2.5,1016.0
+The Bourne Identity,3.0,1016.0
+Black Panther,2.5,1015.9968340773802
+Reservoir Dogs,4.0,1015.9648855862524
+Scream,2.0,1015.9307793317232
+Monster House,2.5,1015.8395377121404
+The Departed,4.5,1015.3282203985794
+Alita: Battle Angel,2.5,1015.300210967224
+Wonder Woman,2.5,1015.2976013366472
+The Town,4.0,1015.2975328274754
+Pirates of the Caribbean: Dead Man's Chest,3.0,1015.2975328274754
+Pitch Perfect 2,2.5,1015.265251433626
+Your Name.,4.0,1015.263693206478
+Rango,2.5,1015.263693206478
+The Silence of the Lambs,4.0,1015.263693206478
+The Usual Suspects,4.5,1015.2632493421418
+Zombieland,3.0,1015.2621407825316
+The Perks of Being a Wallflower,4.0,1015.196330372886
+Scary Movie,3.0,1015.1098240719564
+Harry Potter and the Goblet of Fire,3.0,1014.7752505199824
+Iron Man,4.0,1014.5986524563742
+Star Wars,4.5,1014.597626351594
+Man of Steel,3.0,1014.5946174303537
+Oblivion,3.0,1014.5945107133967
+Casablanca,2.0,1014.5715311485224
+The Sixth Sense,4.0,1014.5641271217236
+American Psycho,3.0,1014.5612260339534
+The Lord of the Rings: The Return of the King,4.5,1014.5364621381748
+Cast Away,4.0,1014.536308995486
+Harry Potter and the Deathly Hallows: Part 1,3.0,1014.53099593905
+Divergent,2.5,1014.477044994784
+Inception,5.0,1014.471412424715
+Thor,2.0,1014.0510619572684
+Titanic,2.0,1014.0056220705436
+The 40 Year Old Virgin,2.5,1013.9959210094526
+Tenet,3.5,1013.8949734492508
+Bumblebee,2.0,1013.859548151597
+Baby Driver,2.5,1013.8409982283482
+Shazam!,2.5,1013.8278882592376
+Apollo 13,3.0,1013.5015709638564
+Madagascar,2.5,1013.3511995067493
+John Wick: Chapter 3 - Parabellum,3.0,1013.2850400667088
+"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",3.0,1013.2625764928392
+Shooter,3.0,1013.1602167269056
+Big Hero 6,3.5,1012.6642293098208
+The Hunger Games: Catching Fire,3.0,1012.6613855500676
+Guardians of the Galaxy,2.5,1012.6148190438496
+Logan,3.5,1012.5019007094272
+Spirited Away,2.0,1012.1839105798078
+Sherlock Holmes: A Game of Shadows,3.0,1012.1108205933368
+Cloudy with a Chance of Meatballs,2.5,1011.9430587529556
+8 Mile,3.5,1011.9187693841874
+Cars 3,3.0,1011.6934017364608
+"I, Robot",3.0,1011.1986663894978
+Limitless,2.0,1010.8416367818562
+Pirates of the Caribbean: Dead Men Tell No Tales,2.5,1010.1929497246902
+Zombieland: Double Tap,2.0,1009.7750719467748
+How the Grinch Stole Christmas,4.0,1006.9195644564476
+Constantine,2.0,1005.1424410388804
+Ghostbusters,2.5,1004.281474860125
+American Beauty,4.5,1003.9215906834846
+Don't Look Up,2.5,1003.8896471033622
+The Day the Earth Stood Still,3.0,1003.5074329191824
+Ghost in the Shell,2.0,1003.3299776484536
+Chappie,2.5,1003.2941406813655
+Dune,3.0,1003.14881239288
+Blood Diamond,3.0,1002.8661057956292
+Indiana Jones and the Last Crusade,3.5,1002.7053343183644
+Extremely Loud & Incredibly Close,3.5,1002.6471298570568
+Rise of the Guardians,3.5,1002.6192799493704
+United 93,2.5,1001.998973315104
+The Purge,2.0,1001.5089579085932
+9,3.5,1001.4388491623736
+Superbad,3.0,1001.4387739660466
+Bruce Almighty,3.0,1001.4376803632368
+Shang-Chi and the Legend of the Ten Rings,3.0,1001.4248815496592
+Captain America: Civil War,4.0,1001.4049280472937
+Alien,3.5,1000.736306793522
+War of the Worlds,3.0,1000.736306793522
+E.T. the Extra-Terrestrial,3.0,1000.736306793522
+Hunt for the Wilderpeople,3.5,1000.736306793522
+It's a Wonderful Life,4.0,1000.736306793522
+Hereditary,3.5,1000.7024671725246
+The Mummy: Tomb of the Dragon Emperor,3.0,1000.7009871386522
+Watchmen,4.0,1000.670253859898
+The Chronicles of Narnia: Prince Caspian,2.0,1000.6687643190156
+Inside Out,3.5,1000.6437877428144
+Indiana Jones and the Kingdom of the Crystal Skull,2.5,1000.6409468963668
+Toy Story 2,3.0,1000.4919004694527
+Memories of Murder,3.5,1000.0648266238958
+Toy Story 3,3.5,1000.0339081301692
+Elysium,3.0,1000.0321601744533
+Independence Day,3.0,1000.0
+The Amazing Spider-Man,2.5,1000.0
+Life of Pi,3.5,1000.0
+A Nightmare on Elm Street,2.5,1000.0
+When Marnie Was There,3.5,1000.0
+Ghost Rider,1.5,1000.0
+The Mummy,3.0,1000.0
+Fight Club,4.0,1000.0
+P.S. I Love You,2.0,1000.0
+Deep Blue Sea,2.0,1000.0
+Mission: Impossible,3.0,1000.0
+Prisoners,3.5,1000.0
+A Bug's Life,2.0,1000.0
+Gladiator,3.0,1000.0
+Léon: The Professional,4.5,1000.0
+Ender's Game,2.5,1000.0
+Quantum of Solace,2.5,1000.0
+Harry Potter and the Half-Blood Prince,3.0,1000.0
+Hacksaw Ridge,3.5,1000.0
+Joker,4.0,1000.0
+Captain America: The First Avenger,2.0,1000.0
+Hancock,3.5,1000.0
+Godzilla,3.0,1000.0
+The Simpsons Movie,2.5,1000.0
+The Terminator,3.0,1000.0
+Deadpool 2,3.0,1000.0
+World War Z,3.0,1000.0
+The Martian,3.5,1000.0
+Little Miss Sunshine,3.0,1000.0
+Finch,3.0,999.9998626429336
+Just Go with It,2.5,999.9975398648498
+Knowing,2.0,999.9970953795408
+Taken,2.5,999.9674446482744
+Star Wars: Episode II - Attack of the Clones,2.0,999.964634745902
+Pirates of the Caribbean: At World's End,3.0,999.5700376058867
+Ratatouille,3.5,999.4563412284124
+Iron Man 3,2.5,999.3639187891632
+Harry Potter and the Chamber of Secrets,3.0,999.297862654793
+The Cable Guy,2.0,999.2975328274754
+Raiders of the Lost Ark,3.0,999.263693206478
+Transformers: Revenge of the Fallen,3.0,999.263693206478
+Solo: A Star Wars Story,2.5,999.1669334758822
+TRON: Legacy,3.0,998.7961650195784
+Shrek 2,3.0,998.7100880440196
+Clash of the Titans,2.5,998.7039671134326
+How to Train Your Dragon 2,3.0,998.6978472534856
+Transformers,3.0,998.6977601310116
+Bridget Jones's Diary,2.5,998.5641950527596
+The Batman,3.0,998.5641271217236
+Grown Ups,3.0,998.5612260339534
+The Day After Tomorrow,3.5,998.5405714726014
+Lemonade Mouth,3.0,998.5340603990164
+Harry Potter and the Philosopher's Stone,3.0,998.425412901125
+Ready Player One,2.5,998.3077397947816
+Despicable Me,3.0,998.2342024535002
+Up,3.0,998.0239810982146
+Green Lantern,1.5,998.0190768367868
+How to Lose a Guy in 10 Days,2.0,996.8172975738262
+Hellboy II: The Golden Army,3.0,996.473938352945
+Avatar: The Way of Water,2.5,996.063182797498
+Scary Movie 3,2.0,995.7340684563662
+Saw,3.5,995.0376384700786
+X-Men: First Class,2.5,988.7913342317472
+The Shape of Water,3.5,988.1082126594883
+Jurassic World,2.0,988.0595450052318
+White Chicks,2.5,987.9217987805516
+Split,2.5,987.7165628003398
+It,3.0,987.5025647217108
+X-Men: The Last Stand,3.0,987.378787199549
+A Nightmare on Elm Street,3.0,987.3349989798212
+Sherlock Holmes,3.0,987.2668096542908
+The Grudge,3.5,986.9502130797986
+The Matrix Resurrections,2.0,986.8450002953716
+Harry Potter and the Prisoner of Azkaban,3.5,986.76524098243
+House,2.5,986.7537584176335
+Free Guy,3.0,986.7066288504892
+The Hobbit: The Desolation of Smaug,2.5,986.6948877238196
+Home,3.0,986.512544129376
+Focus,2.0,986.0734497521662
+Signs,2.5,985.86407488596
+Kung Fu Panda,4.0,985.4681680827172
+Due Date,2.5,985.4666743228872
+Child's Play,2.5,985.4051881731808
+Ant-Man,2.5,985.3992039404408
+The Hunger Games: Mockingjay - Part 1,2.0,985.3732064296776
+Spectre,2.5,985.3446409757868
+Incredibles 2,2.5,985.2931430777752
+Captain Marvel,2.0,985.2211928565312
+Finding Dory,2.5,984.837405716132
+The Invention of Lying,2.0,984.8296668853924
+Eternals,2.5,984.736306793522
+Die Hard,3.0,984.734748566374
+Mean Girls,2.5,984.7024671725246
+The Hobbit: An Unexpected Journey,2.5,984.7024671725246
+The Iron Giant,3.0,984.7023986633528
+Knives Out,3.5,984.697252965124
+Kong: Skull Island,2.0,984.6747910586074
+Scream,2.5,984.672964943966
+Cars,4.0,984.6690727945648
+Mars Attacks!,1.5,984.6686053265904
+Doctor Strange in the Multiverse of Madness,2.0,984.32510777645
+The Amazing Spider-Man 2,2.5,984.2247647156796
+The Bucket List,3.0,984.0295809714704
+The Hunger Games: Mockingjay - Part 2,2.5,984.0291017464548
+Avengers: Infinity War,3.5,984.0
+Bee Movie,2.0,984.0
+Legally Blonde,1.5,984.0
+The Rock,2.5,984.0
+Maleficent,3.0,984.0
+Happy Gilmore,2.5,984.0
+Police Academy,2.5,984.0
+X-Men: Apocalypse,2.0,984.0
+The Hurt Locker,3.0,984.0
+Ted 2,3.0,984.0
+Real Steel,2.0,984.0
+2012,1.5,984.0
+Journey to the Center of the Earth,2.5,984.0
+Super 8,3.5,984.0
+10 Things I Hate About You,3.0,984.0
+Network,3.0,983.99851939551
+American Pie,2.5,983.9692885049076
+The Proposal,2.5,983.9660918698308
+Suicide Squad,2.0,983.9032546425328
+Anchorman 2: The Legend Continues,2.0,983.8772095146984
+Armageddon,3.0,983.7149567863436
+Click,3.0,983.2975328274754
+Spider-Man 3,2.5,983.263693206478
+The Beach,2.5,982.7268833820752
+RoboCop,1.5,982.6920162481867
+Terminator Genisys,2.5,982.5950719527063
+Guardians of the Galaxy Vol. 2,2.0,982.5661035770704
+The Hangover,3.0,982.5641271217236
+Not Another Teen Movie,1.5,982.5641271217236
+The Boy in the Striped Pyjamas,2.5,982.2729816439154
+Jumanji,2.5,982.1059500141644
+Olympus Has Fallen,1.5,982.0350589221032
+Gemini Man,1.5,981.6758100638264
+"Me, Myself & Irene",2.5,981.3493017506856
+Now You See Me,2.5,981.3370979858362
+Moana,3.0,975.904937742176
+Home Alone 2: Lost in New York,3.0,975.4389405305756
+Red Sparrow,2.0,974.621936895078
+The Green Hornet,2.0,974.447260430126
+Alice in Wonderland,2.5,974.2113356829112
+Prometheus,2.5,973.688115919966
+Terminator: Dark Fate,2.5,973.4712624045976
+The Incredible Hulk,2.0,973.3716756966592
+Princess Mononoke,3.0,972.5663646569724
+Waterworld,2.5,972.1487517891594
+Shrek,4.0,971.6110029576422
+Men in Black II,2.5,971.445363179338
+The Emperor's New Groove,3.0,971.4284533708808
+Harry Potter and the Order of the Phoenix,2.5,971.1288973523932
+Return of the Jedi,4.0,971.016395073224
+Snow White and the Huntsman,2.5,970.8964500725896
+Black Hawk Down,3.5,970.8175964962498
+Unbreakable,3.0,970.7945289489872
+Twilight,1.0,970.668728075638
+Toy Story 4,2.5,970.2560720011816
+A Million Ways to Die in the West,2.0,970.1994914265168
+The Conjuring,3.5,970.0756899962386
+Heat,3.0,970.075489604067
+Flight,4.5,969.994635792634
+Alien: Covenant,2.5,969.9590475648168
+No Time to Die,2.0,969.5439422662648
+The Matrix Reloaded,2.0,969.5361709055462
+Fantastic Beasts: The Secrets of Dumbledore,1.5,969.4695015289756
+10 Cloverfield Lane,3.0,969.4695015289756
+X-Men,2.0,969.4693746462468
+Valerian and the City of a Thousand Planets,2.0,969.4387739660466
+Thor: Love and Thunder,2.5,969.4387739660466
+Star Wars: Episode I - The Phantom Menace,2.0,969.4269532528416
+Night at the Museum,2.0,969.4123081360746
+G.I. Joe: The Rise of Cobra,2.0,969.3383790189566
+Star Wars: The Rise of Skywalker,1.0,968.8961106283468
+Scary Movie 2,2.0,968.800590740523
+Star Trek Into Darkness,2.0,968.7579571559692
+The Secret Life of Walter Mitty,0.5,968.736306793522
+Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn),1.0,968.736306793522
+Zathura: A Space Adventure,2.5,968.736306793522
+The Lone Ranger,2.0,968.736306793522
+Big Fish,1.5,968.736306793522
+Star Trek Beyond,2.0,968.6391816210568
+Tangled,2.5,968.5751168421968
+Transformers: Dark of the Moon,2.0,968.4482064234286
+Superman Returns,1.0,968.0977644048528
+Men in Black 3,2.0,968.0659742955688
+Percy Jackson & the Olympians: The Lightning Thief,1.5,968.0618493120328
+The Blair Witch Project,3.0,968.0338330211208
+AVP: Alien vs. Predator,2.5,968.0321088646518
+Bad Teacher,3.0,968.0
+Kingsman: The Golden Circle,2.0,968.0
+Pacific Rim,2.5,967.9998750026856
+Hulk,1.5,967.9998597799108
+The Lost World: Jurassic Park,2.5,967.3969878515768
+Jurassic Park III,2.5,967.3256238956092
+The Notebook,2.0,966.722188207958
+Predestination,1.5,966.6885446644544
+Back to the Future,1.5,966.6242828626202
+Bones and All,2.5,964.7932416198304
+Austin Powers: International Man of Mystery,2.5,960.9206861200444
+Black Widow,2.0,959.0762668676548
+Cowboys & Aliens,2.0,958.749166824732
+Dumb and Dumber To,2.5,958.2872069434976
+The Matrix Revolutions,2.5,957.6519492875932
+The Karate Kid,2.0,957.4454487435828
+King Kong,3.5,957.2904091063594
+Tarzan,2.5,956.9122342282368
+Marley & Me,1.0,956.6573297785942
+Bad Boys II,3.0,956.5583090181884
+The Breakfast Club,3.5,956.3578801977096
+Mission: Impossible - Rogue Nation,2.5,956.285597368651
+The Rocky Horror Picture Show,0.5,956.1741316841712
+The Goonies,2.0,955.7091358135068
+Shrek Forever After,2.0,955.5995902477024
+Mr. Popper's Penguins,2.5,955.5407831177156
+Dumb and Dumber,3.5,955.3839978397156
+Batman v Superman: Dawn of Justice,2.0,955.378175161566
+X-Men Origins: Wolverine,2.0,955.0186251648552
+Fantastic Four,1.5,954.9227530314464
+Dead Poets Society,3.0,954.8933030251256
+Justice League,1.5,954.8090392826936
+The Lion King,3.0,954.778161685286
+Men in Black,3.0,954.240631223346
+After Earth,1.0,954.2012897399572
+John Carter,2.0,954.2002312327857
+Jupiter Ascending,1.0,954.1721796717984
+Dark Phoenix,2.0,954.0752633626546
+Sinister,2.0,953.528656569434
+Mr. Bean's Holiday,3.0,953.4944194338098
+Lucy,2.0,953.4500251102812
+It Follows,3.0,953.4228157527666
+The Mummy,1.0,952.9337772835664
+The Hangover Part III,2.5,952.7930997890109
+The Karate Kid,2.5,951.6401744256964
+Moonlight,2.0,949.9289060837
+Allegiant,2.0,947.8670298127248
+Fantastic Beasts: The Crimes of Grindelwald,2.0,944.2898988337436
+Thor: The Dark World,1.5,943.884242932
+The NeverEnding Story,3.0,943.4384522007044
+PlayTime,0.5,943.417094178436
+Encanto,3.0,942.9151342956012
+Red Notice,2.0,942.136066715168
+Frozen,3.0,941.5398742459377
+Glass,2.5,941.0226205111492
+It Chapter Two,2.5,940.9780224189212
+Big Daddy,3.0,940.9445047757632
+Iron Man 2,2.0,940.279487546708
+Ghost Rider: Spirit of Vengeance,1.5,940.0746094938044
+Radio Rebel,2.0,939.7809965131644
+Fantastic Four: Rise of the Silver Surfer,2.5,939.603549611046
+Wonder Woman 1984,2.0,938.9891785928546
+Glass Onion: A Knives Out Mystery,3.5,938.8746916569212
+Halloween,2.5,938.4990645819628
+Zootopia,2.5,934.7353794143608
+The Hobbit: The Battle of the Five Armies,2.5,933.396306407568
+Sweeney Todd: The Demon Barber of Fleet Street,2.0,932.157749456553
+Brave,2.5,931.9445071397578
+Charlie and the Chocolate Factory,2.0,930.9077365523566
+Minority Report,3.0,929.4341471289832
+Transformers: Age of Extinction,2.0,928.984960686954
+The Ring,2.0,927.70374765631
+Insurgent,2.0,925.92208736791
+Shrek the Third,2.0,925.437933201613
+Sky High,1.0,918.009350818128
+Star Trek,2.0,916.424707505584
+Star Wars: The Force Awakens,2.0,915.0258893871452
+Cars 2,1.5,914.858204886904
+Star Wars: The Last Jedi,2.0,901.7118615655838
+Mission: Impossible III,2.0,895.687472333417
+Monsters vs Aliens,2.0,892.3671040738222
