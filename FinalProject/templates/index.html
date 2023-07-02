@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: cover; /* This will stretch the image to cover the entire container */
+            background-position: center; /* This will center the image in the container */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container a {
+            width: 24%; /* Adjust as needed */
+            text-align: center;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .container .or {
+            align-self: center;
+            padding: 0 5%; /* Adjust as needed */
+            font-size: 4em;
+        }
+    </style>
+</head>
+<body style="background-image: url({{ url_for('static', filename='rab.jpg') }});">
+    <div class="container">
+        <a href="https://letterboxd.com/">
+            <img src="{{cover}}" alt="left picture", style="box-shadow: -4px -4px 10px 6px blue;">
+        </a>
+        <span class="or">VS</span>
+        <a href="https://letterboxd.com/">
+            <img src="{{cover1}}" alt="right picture", style="box-shadow: 4px 4px 10px 6px red;">
+        </a>
+    </div>
+</body>
+</html>
