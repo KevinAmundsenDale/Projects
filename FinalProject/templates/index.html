@@ -28,11 +28,45 @@
             height: auto;
         }
 
-        .container .or {
-            align-self: center;
+        .vsContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             padding: 0 5%; /* Adjust as needed */
+        }
+
+        .vsContainer .or {
             font-size: 4em;
         }
+
+        .vsContainer button {
+            width: 100%; /* Adjust as needed */
+            font-size: 140%;
+            background-color: transparent;
+            border: 0;
+        }
+
+        .vsContainer button:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+        }
+
+        .upload-btn {
+            position: absolute; /* Position the button absolutely within the body */
+            top: 2%; /* Position from the top */
+            right: 2%; /* Position from the right */
+            padding: 10px 20px; /* Give some padding */
+            background-color: #008CBA; /* Blue background */
+            color: white; /* White text */
+            border: none; /* No border */
+            cursor: pointer; /* Hand cursor on hover */
+            font-size: 16px; /* Increase font size */
+            border-radius: 5px; /* Rounded corners */
+        }
+        .upload-btn:hover {
+            background-color: #007B9A; /* Darken background on hover */
+        }
+
     </style>
 </head>
 <body style="background-image: url({{ url_for('static', filename='rab.jpg') }});">
@@ -40,10 +74,18 @@
         <a href="https://letterboxd.com/">
             <img src="{{cover}}" alt="left picture", style="box-shadow: -4px -4px 10px 6px blue;">
         </a>
-        <span class="or">VS</span>
+        <div class="vsContainer">
+            <span class="or">VS</span>
+            <button type="button">Even Match</button>
+        </div>
         <a href="https://letterboxd.com/">
             <img src="{{cover1}}" alt="right picture", style="box-shadow: 4px 4px 10px 6px red;">
         </a>
     </div>
+    <form>
+        <label for="file">File</label>
+        <input id="file" type="file" />
+        <button class="upload-btn" onclick="document.getElementById('file').click()">Upload</button>
+    </form>
 </body>
 </html>

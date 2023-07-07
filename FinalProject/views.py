@@ -7,10 +7,6 @@ import random
 
 views = Blueprint(__name__, "views")
 
-def read_file_c(file):
-    df = pd.read_csv(file, encoding = 'utf-8')
-    return df
-
 movies = pd.read_csv('FinalProject/ratings12.csv') 
 
 def get_movie_cover(movie_name):
