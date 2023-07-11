@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #file {
+            display: none;
+        }
+
+        .upload-btn {
+            position: relative;
+            padding: 10px 20px; /* Give some padding */
+            background-color: #008CBA; /* Blue background */
+            color: white; /* White text */
+            border: none; /* No border */
+            cursor: pointer; /* Hand cursor on hover */
+            font-size: 46px; /* Increase font size */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+        }
+        .upload-btn:hover {
+            background-color: #007B9A; /* Darken background on hover */
+        }
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    html {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    /* Optional: Add smooth scrolling effect for some browsers */
+    html {
+        scroll-behavior: smooth;
+    }
+    </style>
+</head>
+<body style="background-image: url({{ url_for('static', filename='aveng.jpg') }}); background-size: cover;">
+    <form class="container">
+        <input id="file" type="file" />
+        <button class="upload-btn" onclick="document.getElementById('file').click(); return false;">Upload Movie Ratings</button>
+    </form>
+</body>
+</html>

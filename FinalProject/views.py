@@ -20,6 +20,10 @@ def get_movie_cover(movie_name):
 cover_url = get_movie_cover(str(movies["Letterboxd URI"][249]).split(',', 1)[0])
 cover_url1 = get_movie_cover(str(movies["Letterboxd URI"][32]).split(',', 1)[0])
 
-@views.route("/")
+@views.route("/elo")
 def home():
     return render_template("index.html", cover=cover_url, cover1=cover_url1)
+
+@views.route("/upload")
+def upload_file():
+    return render_template('upload.html')
