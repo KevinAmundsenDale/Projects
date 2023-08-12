@@ -49,9 +49,10 @@
     </style>
 </head>
 <body style="background-image: url({{ url_for('static', filename='aveng.jpg') }}); background-size: cover;">
-    <form class="container">
-        <input id="file" type="file" />
+    <form class="container" action="{{ url_for('views.upload_file') }}" method="post" enctype="multipart/form-data">
+        <input id="file" name="file" type="file" />
         <button class="upload-btn" onclick="document.getElementById('file').click(); return false;">Upload Movie Ratings</button>
+        <input type="submit" value="Upload">
     </form>
 </body>
 </html>

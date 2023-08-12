@@ -23,6 +23,17 @@
             text-align: center;
         }
 
+        a:link { text-decoration: none; }
+
+
+        a:visited { text-decoration: none; }
+
+
+        a:hover { text-decoration: none; }
+
+
+        a:active { text-decoration: none; }
+
         .container img {
             width: 100%;
             height: auto;
@@ -66,21 +77,106 @@
         .upload-btn:hover {
             background-color: #007B9A; /* Darken background on hover */
         }
+        .movie-name{
+            font-size: 2em;
+            color: black;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .modal-content {
+            margin: 10% auto;
+            padding: 0px;
+            width: 50%;
+            position: center;
+        }
+
+        .close-btn {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            color: black;
+            font-size: 128px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .video-btn {
+            display: block;
+            margin-top: 10px;
+        }
 
     </style>
 </head>
 <body style="background-image: url({{ url_for('static', filename='rab.jpg') }});">
     <div class="container">
-        <a href="https://letterboxd.com/">
-            <img src="{{cover}}" alt="left picture", style="box-shadow: -4px -4px 10px 6px blue;">
+        <a href="{{ url_for('views.home', clicked_index=index1, not_clicked_index=index2) }}">
+            <img src="{{cover}}" alt="left picture" style="box-shadow: -4px -4px 10px 6px blue;">
+            <div class="movie-name">{{movie_name1}}</div>
         </a>
+        <button class="video-btn" data-video="//www.youtube.com/embed/2-_-1nJf8Vg?rel=0&wmode=transparent&autoplay=1">Watch Trailer</button>
         <div class="vsContainer">
             <span class="or">VS</span>
-            <button type="button">Even Match</button>
+            <button type="button" id="evenMatchBtn">Even Match</button>
         </div>
-        <a href="https://letterboxd.com/">
-            <img src="{{cover1}}" alt="right picture", style="box-shadow: 4px 4px 10px 6px red;">
+        <a href="{{ url_for('views.home', clicked_index=index2, not_clicked_index=index1) }}">
+            <img src="{{cover1}}" alt="right picture" style="box-shadow: 4px 4px 10px 6px red;">
+            <div class="movie-name">{{movie_name2}}</div> 
         </a>
     </div>
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <iframe width="1000" height="560" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script>
+        document.getElementById('evenMatchBtn').addEventListener('click', function() {
+            var index1 = "{{index1}}";
+            var index2 = "{{index2}}";
+            window.location.href = "{{ url_for('views.home') }}?clicked_index=" + index1 + "&not_clicked_index=" + index2 + "&even_match=true";
+        });
+
+        // Get modal element
+        var modal = document.getElementById("videoModal");
+        var iframe = modal.querySelector("iframe");
+
+        // Get buttons that open the modal
+        var btns = document.querySelectorAll(".video-btn");
+
+        // Get the <span> element that closes the modal
+        var span = modal.querySelector(".close-btn");
+
+        // When the user clicks on the button, open the modal and set video URL
+        btns.forEach(function(btn) {
+            btn.addEventListener("click", function() {
+                modal.style.display = "block";
+                iframe.src = this.getAttribute("data-video");
+            });
+        });
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+            iframe.src = "";  // Stop video playback
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                iframe.src = "";  // Stop video playback
+            }
+        }
+    </script>
 </body>
 </html>
