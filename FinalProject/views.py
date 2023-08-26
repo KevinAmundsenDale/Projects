@@ -29,7 +29,7 @@ def get_movie_data(movie_name):
     cover = json_obj['image'].replace("230", "460").replace("345", "690")
 
     trailer_tag = soup.find('a', attrs={"data-track-category": "Trailer"})
-    trailer = trailer_tag['href'] if trailer_tag else None
+    trailer = "https:"+trailer_tag['href'].rsplit("rel")[0]+"autoplay=1&rel=1" if trailer_tag else None
     return cover, trailer
 
 def fetch_data(movie_name):
@@ -86,7 +86,7 @@ def home():
 
         print(movies.loc[:,:])
 
-    return render_template("index.html", cover=cover_url, cover1=cover_url1, index1=movie1, index2=movie2, movie_name1=movies["Name"][movie1], movie_name2=movies["Name"][movie2])
+    return render_template("index.html", cover=cover_url, cover1=cover_url1, index1=movie1, index2=movie2, movie_name1=movies["Name"][movie1], movie_name2=movies["Name"][movie2], movie_trailer1=movies["trailer"][movie1], movie_trailer2=movies["trailer"][movie2])
 
 
 

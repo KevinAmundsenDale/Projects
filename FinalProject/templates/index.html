@@ -21,6 +21,8 @@
         .container a {
             width: 24%; /* Adjust as needed */
             text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
         }
 
         a:link { text-decoration: none; }
@@ -81,63 +83,87 @@
             font-size: 2em;
             color: black;
         }
-        .modal {
+
+        .modal_wrapper {
             display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
+            position: fixed; /* this ensures it covers the full viewport */
             top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.7);
+            left: 0;
+            width: 100%; /* full viewport width */
+            height: 100%; /* full viewport height */
+            background-color: rgba(0,0,0,0.7); /* semi-transparent black */
+            z-index: 1000; /* ensures it appears on top of other content */
         }
-
-        .modal-content {
-            margin: 10% auto;
-            padding: 0px;
-            width: 50%;
-            position: center;
-        }
-
-        .close-btn {
+        
+        .modal_inner {
             position: absolute;
-            right: 15px;
-            top: 10px;
-            color: black;
-            font-size: 128px;
-            font-weight: bold;
-            cursor: pointer;
+            top: 50%; /* Move the top edge to the center of the parent */
+            left: 50%; /* Move the left edge to the center of the parent */
+            width: 70%; 
+            height: 70%; 
+            transform: translate(-50%, -50%); /* This will pull the element up and left by half its width and height, thus centering it */
+            display: flex; 
+            justify-content: center; /* center content inside the div horizontally */
+            align-items: center; /* center content inside the div vertically */
+        }
+        
+        .modal_inner iframe {
+            width: 100%;  /* adjust to your preference */
+            height: 100%; /* adjust based on the aspect ratio you want */
         }
 
-        .video-btn {
+        .modal_wrapper.active{
             display: block;
-            margin-top: 10px;
+
+        }
+
+        .Trailer1 {
+            position: absolute;
+            left: 24%;
+            top: 8%;
+            padding: 10px 70px;
+            background-color: rgba(70, 10, 70, 0.7);
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .Trailer2 {
+            position: absolute;
+            right: 24%;
+            top: 8%;
+            padding: 10px 70px;
+            background-color: rgba(70, 10, 70, 0.7);
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
 
     </style>
 </head>
 <body style="background-image: url({{ url_for('static', filename='rab.jpg') }});">
+    <div class="modal_wrapper">
+        <div class="modal_inner"></div>
+    </div>
     <div class="container">
+        <button class="Trailer1" onclick="playvideo1()">Watch Trailer</button>
         <a href="{{ url_for('views.home', clicked_index=index1, not_clicked_index=index2) }}">
-            <img src="{{cover}}" alt="left picture" style="box-shadow: -4px -4px 10px 6px blue;">
             <div class="movie-name">{{movie_name1}}</div>
+            <img src="{{cover}}" alt="left picture" style="box-shadow: -4px -4px 10px 6px blue;">
         </a>
-        <button class="video-btn" data-video="//www.youtube.com/embed/2-_-1nJf8Vg?rel=0&wmode=transparent&autoplay=1">Watch Trailer</button>
         <div class="vsContainer">
             <span class="or">VS</span>
             <button type="button" id="evenMatchBtn">Even Match</button>
         </div>
+        <button class="Trailer2" onclick="playvideo2()">Watch Trailer</button>
         <a href="{{ url_for('views.home', clicked_index=index2, not_clicked_index=index1) }}">
-            <img src="{{cover1}}" alt="right picture" style="box-shadow: 4px 4px 10px 6px red;">
             <div class="movie-name">{{movie_name2}}</div> 
+            <img src="{{cover1}}" alt="right picture" style="box-shadow: 4px 4px 10px 6px red;">
         </a>
-    </div>
-    <div id="videoModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <iframe width="1000" height="560" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
     </div>
     <script>
         document.getElementById('evenMatchBtn').addEventListener('click', function() {
@@ -146,37 +172,46 @@
             window.location.href = "{{ url_for('views.home') }}?clicked_index=" + index1 + "&not_clicked_index=" + index2 + "&even_match=true";
         });
 
-        // Get modal element
-        var modal = document.getElementById("videoModal");
-        var iframe = modal.querySelector("iframe");
+        var modwrapper = document.querySelector(".modal_wrapper"),
+            modinner = document.querySelector(".modal_inner");
 
-        // Get buttons that open the modal
-        var btns = document.querySelectorAll(".video-btn");
+        var trailer1 = "{{movie_trailer1}}";
+        var trailer2 = "{{movie_trailer2}}";
 
-        // Get the <span> element that closes the modal
-        var span = modal.querySelector(".close-btn");
+        function playvideo1() {
+            modwrapper.classList.add("active");
 
-        // When the user clicks on the button, open the modal and set video URL
-        btns.forEach(function(btn) {
-            btn.addEventListener("click", function() {
-                modal.style.display = "block";
-                iframe.src = this.getAttribute("data-video");
-            });
-        });
+            let iframe = document.createElement("iframe");
+            iframe.setAttribute("src", trailer1);
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+            iframe.setAttribute("allowfullscreen", "");
+            iframe.classList.add("modal_vid");
 
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-            iframe.src = "";  // Stop video playback
+            modinner.append(iframe);
         }
 
-        // When the user clicks anywhere outside of the modal, close it
+        function playvideo2() {
+            modwrapper.classList.add("active");
+
+            let iframe = document.createElement("iframe");
+            iframe.setAttribute("src", trailer2);
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+            iframe.setAttribute("allowfullscreen", "");
+            iframe.classList.add("modal_vid");
+
+            modinner.append(iframe);
+        }
+
         window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-                iframe.src = "";  // Stop video playback
+            if (event.target == modwrapper) {
+                modwrapper.classList.remove("active");
+                let videoElem = modinner.querySelector("iframe");
+                if (videoElem) videoElem.remove();
             }
-        }
+        };
+
     </script>
 </body>
 </html>
